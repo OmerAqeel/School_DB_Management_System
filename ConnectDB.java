@@ -17,7 +17,7 @@ public class ConnectDB {
         String databaseName = "";
         String url = "jdbc:mysql://localhost:3306/" + databaseName;
         String name = "root";
-        String password = "MaryamAqeel123";
+        String password = "######";
         String query = " insert into StudentsDB.Student (studentID, firstName, lastName)"
         		+" values (?,?, ?);";
 
